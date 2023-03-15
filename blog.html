@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Blog Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>hi</h1>
+
+<body class=" bg-cyan-100 font-common ">
+    <header class="h-16 shadow-sm text-center ">
+        <h1 class="font-bold py-4 text-2xl"> <span class="text-green-600	">Answering </span> the <span
+                class="text-red-500	"> Questions</span></h1>
+    </header>
+    <main>
+        <ol class="text-center">
+            <li class="">
+                <p class="text-red-500	font-bold py-4 px-8 text-xl text-left ">Difference between map(), filter(), forEach() and find() .</p>
+                <p class="text-blue-400 text-lg py-3 px-10 text-left">The map() function executes the same code on every element in an array and returns a new array with the updated elements. <br> <br>Every element in an array is examined by filter() to see if it satisfies a certain set of requirements before returning a new array that only contains the elements that do. <br> <br>The forEach() method calls a function once for each element in an array, in order. <br> <br> The find() method does not alter the original array; it returns the value of the first element that passes a test, executes a function for each element in the array, returns undefined if no elements are discovered, and does not execute the function for empty elements.</p>
+            </li>
+            <li class="">
+                <p class="text-red-500	font-bold py-4 px-8 text-xl text-left	">Difference between localStorage , Session storage and Cookies .</p>
+                <p class="text-blue-400 text-lg py-3 px-10 text-left">By the localStorage method we can save and retrieve data in the browser using a sort of web storage object that is provided . Data can be kept and accessed without expiring; it will be accessible even after a visitor leaves your website. <br> <br> sessionStorage is similar to localStorage; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. <br> <br> Cookies are text files that include tiny bits of information, such as a login and password, and are used to recognize your machine when you're connected to a computer network. HTTP cookies are a particular type of cookie that are used to identify specific users and enhance web browsing.
+
+                    The server creates data in a cookie as soon as you connect. An ID that is specific to you and your computer is used to identify this data.</p>
+            </li>
+            <li class="">
+                <p class="text-red-500	font-bold py-4 px-8 text-xl text-left">What is event loop ? How does it works ?</p>
+                <p class="text-blue-400 text-lg py-3 px-10 text-left">Event loop, which is in charge of running the program, gathering and analyzing events, and carrying out queued sub-tasks. <br> <br>The Call Stack and the Callback Queue are two simple tasks performed by the Event Loop. The Event Loop will pull the first event from the queue and put it to the Call Stack if it is empty, where it is effectively run.</p>
+            </li>
+            <li class="">
+                <p class="text-red-500	font-bold py-4 px-8 text-xl text-left">What is the role of quizTimer function in noChange.js file ?</p>
+                <p class="text-blue-400 text-lg py-3 px-10 text-left"></p>
+            </li>
+            <li class="">
+                <p class="text-red-500	font-bold py-4 px-8 text-xl text-left	">What is the role of chooseQuiz function in noChange.js file ?</p>
+                <p class="text-blue-400 text-lg py-3 px-10 text-left"></p>
+            </li>
+        </ol>
+    </main>
 </body>
+
 </html>
